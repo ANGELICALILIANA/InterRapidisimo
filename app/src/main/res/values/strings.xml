@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">InterRapidisimo</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- create_entity -->
+    <string name="create_table">CREAR TABLA</string>
+    <string name="show_table">MOSTRAR TABLA</string>
+    <string name="created">LAS TABLAS YA HAN SIDO CREADAS</string>
+
+    <!-- show_entity -->
+    <string name="primary_key">LLAVE</string>
+    <string name="size">TAMAÑO</string>
+    <string name="field">NÚMERO CAMPOS</string>
+    <string name="date">FECHA</string>
+    <string name="filter">FILTRAR...</string>
+
+    <!-- error -->
+    <string name="error_mapper">Respuesta no pudo ser mapeada</string>
+    <string name="error_response">Respuesta fallida</string>
+
+    <!-- shared_preferences -->
+    <string name="database_created">DATABASE_CREATED</string>
+</resources>

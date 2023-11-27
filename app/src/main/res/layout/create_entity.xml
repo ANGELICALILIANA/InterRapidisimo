@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/separation"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/createTablesButton"
+            style="@style/style_buttons"
+            android:layout_margin="@dimen/general_margin"
+            android:text="@string/create_table"
+            android:visibility="visible" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/viewTablesButton"
+            style="@style/style_buttons"
+            android:layout_margin="@dimen/general_margin"
+            android:backgroundTint="@color/venice_orange"
+            android:text="@string/show_table"
+            android:visibility="visible" />
+    </LinearLayout>
+
+</ScrollView>
